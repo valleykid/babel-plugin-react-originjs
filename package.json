@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-react-originjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make react-components into original js",
   "main": "index.js",
   "scripts": {
