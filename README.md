@@ -1,5 +1,4 @@
 # babel-plugin-react-originjs
-Make react-components into original js
 
 [![npm version](https://img.shields.io/npm/v/babel-plugin-react-originjs.svg)](https://www.npmjs.org/package/babel-plugin-react-originjs)
 [![npm downloads](https://img.shields.io/npm/dm/babel-plugin-react-originjs.svg)](https://www.npmjs.org/package/babel-plugin-react-originjs)
@@ -15,7 +14,9 @@ ReactDOM.render(<HelloWorld />, document.getElementById('wrap'))
 After:
 
 ```js
-window['ICAT'] && window['ICAT'].react? ICAT.react(function(el){ ReactDOM.render(<HelloWorld />, el); }) : ReactDOM.render(<HelloWorld />, document.getElementById('wrap'));
+window['ICAT'] && window['ICAT'].react?
+  ICAT.react(function(el){ ReactDOM.render(<HelloWorld />, el); }) :
+  ReactDOM.render(<HelloWorld />, document.getElementById('wrap'));
 ```
 
 ## Installation
