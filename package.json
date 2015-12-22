@@ -1,11 +1,10 @@
 {
   "name": "babel-plugin-react-originjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Make react-components into original js",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rm -rf lib && ./node_modules/.bin/babel src --out-dir lib --presets es2015",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf lib && ./node_modules/.bin/babel src --out-dir lib --presets es2015"
   },
   "repository": {
     "type": "git",
